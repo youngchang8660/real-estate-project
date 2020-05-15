@@ -1,0 +1,50 @@
+
+.house-body {
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+
+.house {
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 388px;
+    height: 400px;
+}
+
+.house-images {
+    width: 384px;
+    cursor: pointer;
+}
+
+.price-and-heart {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+    height: 40px;
+}
+
+.house-heart {
+    font-size: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.house-infos {
+    display: flex;
+    width: 70%;
+    height: 30px;
+    justify-content: space-around;
+}
+
+.house-info {
+    font-weight: 500;
+}
+
+.house-address-container {
+margin-left: 10px;
+}
+
+.house-address {
+    font-weight: 500;
+    font-size: 15px;
+}

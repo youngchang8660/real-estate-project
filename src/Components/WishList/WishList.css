@@ -1,0 +1,16 @@
+.favorite-body {
+    border: 1px solid none;
+    display: flex;
+    justify-content: center;
+}
+
+.mapped-favorite-houses {
+    margin-top: 100px;
+    width: 100%;
+    border: 1px solid none;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

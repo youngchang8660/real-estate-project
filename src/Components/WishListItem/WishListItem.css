@@ -1,0 +1,53 @@
+
+.favorite-body {
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+.favorite {
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 388px;
+    height: 400px;
+}
+
+.favorite-images {
+    width: 384px;
+    cursor: pointer;
+}
+
+.price-and-heart {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+    height: 40px;
+}
+
+.favorite-heart {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.favorite-infos {
+    display: flex;
+    width: 70%;
+    height: 30px;
+    justify-content: space-around;
+}
+
+.favorite-info {
+    font-weight: 500;
+}
+
+.favorite-address-container {
+margin-left: 10px;
+}
+
+.favorite-address {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.wish-list-heart {
+    cursor: pointer;
+}
