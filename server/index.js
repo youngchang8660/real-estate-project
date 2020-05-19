@@ -9,6 +9,7 @@ const express = require('express'),
       wishListCtrl = require('./Controllers/wishListController'),
       tourCtrl = require('./Controllers/tourController')
       port = SERVER_PORT,
+      path = require('path'),
       app = express();
 
 app.use(express.json())
@@ -47,5 +48,10 @@ app.post('/api/tour', tourCtrl.addNewTour)
 app.post('/api/add/list', wishListCtrl.addToList)
 app.get('/api/get/list/:list_id', wishListCtrl.getList)
 app.delete('/api/delete/item/:id', wishListCtrl.deleteItem)
+
+app.use(express.static(__dirname + '/../build'))
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../build/index.html'))
+})
 
 app.listen(port, () => console.log(`Server running on ${port}`))

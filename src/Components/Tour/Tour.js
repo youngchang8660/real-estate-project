@@ -98,7 +98,7 @@ const Tour = (props) => {
         />
         <button className='tour-submit-button' onClick={scheduleTour}>SCHEDULE</button> 
         </div>
-        
+        fdasfadfa
       </form>
     </div>
   );
