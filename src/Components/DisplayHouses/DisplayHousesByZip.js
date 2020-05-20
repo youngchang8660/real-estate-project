@@ -7,6 +7,7 @@ import {getHousesByZip} from '../../ducks/houseReducer'
 import {getMappedHousesByZip} from '../../ducks/houseReducer'
 import { getWishList } from "../../ducks/houseReducer";
 import Select from "react-select";
+import "./Display.css";
 
 const DisplayHousesByZip = (props) => {
   const [houseList, setHouseList] = useState([]);

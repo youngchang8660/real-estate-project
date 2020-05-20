@@ -51,3 +51,19 @@ margin-left: 10px;
 .wish-list-heart {
     cursor: pointer;
 }
+
+@media (max-width:400px) {
+    .favorite-body {
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+    .favorite {
+        border: 2px solid gray;
+        border-radius: 5px;
+        width: 90%;
+        height: 370px;
+    }
+    .favorite-images {
+        width: 100%;
+    }
+}

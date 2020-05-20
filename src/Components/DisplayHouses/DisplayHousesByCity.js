@@ -116,7 +116,8 @@ const DisplayHousesByCity = (props) => {
   return (
     <div className="display-body">
       <div className="display-search-container">
-        <input
+        <div className='search-container'>
+          <input
           placeholder="City or Zip Code"
           className="display-search-box"
           value={input}
@@ -129,7 +130,10 @@ const DisplayHousesByCity = (props) => {
           src="https://image.flaticon.com/icons/png/512/1086/1086916.png"
           width="100"
         />
+        </div>
+        
         <div className='filter-container'>
+          <div>
             <h3>Price</h3>
           <Select
             className='minPrice-filter'
@@ -137,13 +141,17 @@ const DisplayHousesByCity = (props) => {
             onChange={(minPrice) => setMinPrice(minPrice)}
             options={minPriceOptions}
           />
-          <h3>To</h3>
+          </div>
+            <div>
+              <h3>To</h3>
           <Select
             className='maxPrice-filter'
             value={maxPrice}
             onChange={(maxPrice) => setMaxPrice(maxPrice)}
             options={maxPriceOptions}
           />
+            </div>
+          
         </div>
       </div>
       <section className="display-house-body">

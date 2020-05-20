@@ -1,6 +1,6 @@
 const initialState = {
-    // user: {user_id: 22, email: "asd", list_id: 39}
-    user: {}
+    user: {user_id: 22, email: "asd", list_id: 39}
+    // user: {}
 }
 
 const GET_USER = 'GET_USER'
