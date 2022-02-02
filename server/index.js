@@ -12,6 +12,8 @@ const express = require('express'),
       path = require('path'),
       app = express();
 
+console.log('server port', SERVER_PORT);
+
 app.use(express.json())
 app.use(cors())
 app.use(session({
